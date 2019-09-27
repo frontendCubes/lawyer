@@ -1903,7 +1903,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: rgba(88, 108, 136, 0.8);
   opacity: 1;
 }
 
@@ -10612,73 +10612,47 @@ footer .copyright a {
   }
 }
 
-.news-section {
-  padding: 50px 0;
-}
-
-.news-section .news-item h2 a {
-  color: #1E1E1E;
-  line-height: 4rem;
-  display: block;
-}
-
-.news-section .news-item .news-item-description {
+.contact-lead-section p, .contact-lead-section a {
+  color: #586C88;
+  font-weight: 400;
   line-height: 2.5rem;
-  height: 7.5rem;
-  overflow: hidden;
 }
 
-.news-section .news-item .read-more {
-  font-weight: 500;
+.contact-lead-section p span, .contact-lead-section a span {
+  margin-right: 12px;
+  font-size: 2rem;
 }
 
-.news-section .news-item .news-item-img {
-  overflow: hidden;
+.contact-section {
+  padding: 64px 0;
 }
 
-.news-section .news-item .news-item-img img {
-  transition: 0.5s linear;
-}
-
-.news-section .news-item .news-item-img img:hover {
-  transform: scale(1.1);
-}
-
-@media (min-width: 992px) {
-  .news-section {
-    padding: 114px 0;
-  }
-  .news-section .news-item {
-    margin-bottom: 11.4rem !important;
-  }
-  .news-section .news-item h2 a {
-    line-height: 4.6rem;
-  }
-}
-
-.news-page-section .lead-section-title {
-  font-size: 3.6rem !important;
+.contact-section h2 {
   line-height: 4.6rem !important;
 }
 
-.news-single-content {
-  padding: 67px 0;
+.contact-section .form-control {
+  background-color: rgba(37, 61, 97, 0.02);
+  border: none;
+  height: 50px !important;
+  line-height: 50px;
+  padding: 0 10px;
 }
 
-.news-single-content img {
-  width: 100%;
+.contact-section textarea.form-control {
+  height: 350px !important;
+  resize: none;
 }
 
-.news-single-content p {
-  margin-bottom: 3rem;
+.contact-section .error-msg * {
+  color: #dc3545;
+  font-size: 1.3rem;
 }
 
-.news-single-content .news-tags a {
-  text-transform: lowercase;
-}
-
-.news-single-content .news-tags .tag-title {
-  font-weight: 500;
+@media (min-width: 992px) {
+  .contact-section {
+    padding: 64px 0 128px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */
